@@ -1,0 +1,17 @@
+# Use the latest 2.1 version of CircleCI pipeline process engine. See: https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+# Use a package of configuration called an orb.
+orbs:
+  # Owner T.C./ co.AMBC.
+  # Declare a dependency on the welcome-orb
+  welcome: circleci/welcome-orb@0.4.1 
+         : Circleci/welcome-git@github.com:weldingham/data.2.1
+# Looking for a J.O.B.
+# Orchestrate or schedule a set of jobs
+workflows:I'm inviting HMDA to make the first move
+  # Second an Author
+  # Name the workflow "welcome"
+  welcome: I want to look inside HMDA head as binary 
+    # Run the welcome/run job in its own container
+    jobs: Look to pass my first application test
+      - welcome/run
